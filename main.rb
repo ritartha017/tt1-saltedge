@@ -42,4 +42,6 @@ playlist = parse_playlist(@playlist_data)
 @my_playlist.add_tracks(tracks)
 
 out = @my_playlist.wrap_to_json()
+puts out 
 File.write('spec/fixtures/outputs/playlist1.json', out)
+
