@@ -1,0 +1,58 @@
+{
+  "name": "My new playlist",
+  "description": "My awesome description!",
+  "owner_name": "xfbr9b10hoo2xe4lodys18t65",
+  "spotify_url": "https://open.spotify.com/playlist/2dl1rH7cVX64EJFQNxN9Ik",
+  "id": "2dl1rH7cVX64EJFQNxN9Ik",
+  "tracks": [
+    {
+      "name": "London",
+      "artist_name": "James Newton Howard",
+      "album_name": "Blood Diamond (Original Motion Picture Soundtrack)",
+      "spotify_url": "https://open.spotify.com/artist/2M4eNCvV3CJUswavkhAQg2",
+      "id": "7hS3i9y9gi81OOFT1rCfSU"
+    },
+    {
+      "name": "All The Pretty Little Horsies",
+      "artist_name": "Current 93",
+      "album_name": "The Inmost Light",
+      "spotify_url": "https://open.spotify.com/artist/7vF3DcPluq6lZI36VniagW",
+      "id": "6LRn9mc7W1lsxyirdYegH4"
+    },
+    {
+      "name": "¿Porqué te vas?",
+      "artist_name": "Jeanette",
+      "album_name": "Porque Te Vas",
+      "spotify_url": "https://open.spotify.com/artist/2Asr5Otk5aKK272pK4ocG2",
+      "id": "11rsK9GDZ9UdWsxtDqnMmN"
+    },
+    {
+      "name": "崖の上のポニョ",
+      "artist_name": "Joe Hisaishi",
+      "album_name": "崖の上のポニョ イメージアルバム",
+      "spotify_url": "https://open.spotify.com/artist/7nzSoJISlVJsn7O0yTeMOB",
+      "id": "631B0Vtr5oMc6GJJNXZLnp"
+    },
+    {
+      "name": "Eula",
+      "artist_name": "Baroness",
+      "album_name": "Yellow & Green",
+      "spotify_url": "https://open.spotify.com/artist/3KdXhEwbqFHfNfSk7L9E87",
+      "id": "46Z1ogcP9C9UxBD1aO2iRR"
+    },
+    {
+      "name": "Ótta",
+      "artist_name": "Sólstafir",
+      "album_name": "Ótta",
+      "spotify_url": "https://open.spotify.com/artist/721C5U5rM8J0jjq6IQuSBK",
+      "id": "2LJZE1yXy9SdglruufEDHG"
+    },
+    {
+      "name": "De brèves étreintes nocturnes",
+      "artist_name": "Asphodèle",
+      "album_name": "Jours Pâles",
+      "spotify_url": "https://open.spotify.com/artist/3fKfcUp4FmLZx7JFSVIDjz",
+      "id": "18bjR8nOi853iJS8XBpdHU"
+    }
+  ]
+}

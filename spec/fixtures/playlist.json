@@ -1,0 +1,30 @@
+{
+  "name": "My new playlist",
+  "description": "My awesome description",
+  "owner_name": "xfbr9b10hoo2xe4lodys18t65",
+  "spotify_url": "https://open.spotify.com/playlist/40FPhVnuG6S6DM4WSvIwL9",
+  "id": "40FPhVnuG6S6DM4WSvIwL9",
+  "tracks": [
+    {
+      "name": "London",
+      "artist_name": "James Newton Howard",
+      "album_name": "Blood Diamond (Original Motion Picture Soundtrack)",
+      "spotify_url": "https://open.spotify.com/artist/2M4eNCvV3CJUswavkhAQg2",
+      "id": "7hS3i9y9gi81OOFT1rCfSU"
+    },
+    {
+      "name": "All The Pretty Little Horsies",
+      "artist_name": "Current 93",
+      "album_name": "The Inmost Light",
+      "spotify_url": "https://open.spotify.com/artist/7vF3DcPluq6lZI36VniagW",
+      "id": "6LRn9mc7W1lsxyirdYegH4"
+    },
+    {
+      "name": "De brèves étreintes nocturnes",
+      "artist_name": "Asphodèle",
+      "album_name": "Jours Pâles",
+      "spotify_url": "https://open.spotify.com/artist/3fKfcUp4FmLZx7JFSVIDjz",
+      "id": "18bjR8nOi853iJS8XBpdHU"
+    }
+  ]
+}
