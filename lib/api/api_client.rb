@@ -1,14 +1,15 @@
 require 'watir'
 require 'rest-client'
+require 'dotenv/load'
 
 require_relative '../../utils/parsers'
 
 module Api
   module Client
     CLIENT_CALLBACK_URL = 'http://127.0.0.1:4567/'
-    CLIENT_ID     = 'd20ba0d4d0a6415fa68fad8a9258a329'
-    CLIENT_SECRET = '47d0f21bfc5041259727815507d2808f'
-    LOGIN, PASS   = 'your_login', 'your_pass'
+    CLIENT_ID     = ENV['CLIENT_ID']
+    CLIENT_SECRET = ENV['CLIENT_SECRET']
+    LOGIN, PASS   = ENV['LOGIN'], ENV['PASS']
     SCOPES        = 'user-read-private user-read-email playlist-modify-public playlist-modify-private'
     AUTHORIZE     = 'https://accounts.spotify.com/authorize'
     

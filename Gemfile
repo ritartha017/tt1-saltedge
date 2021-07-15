@@ -10,6 +10,7 @@ gem 'rest-client'
 gem 'json'
 gem 'watir'
 
-group :development do 
-    gem "rspec"
-end
+
+# development group
+gem "rspec"
+gem 'dotenv'
