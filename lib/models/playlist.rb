@@ -4,33 +4,30 @@ module Models
   class Playlist
     attr_accessor :id, :name, :description, :owner_name, :spotify_url, :tracks
     
-    @@tracks = []
-
     def initialize(attrs = {})
       attrs.each do |k, val|
+        break if k == 'tracks'
         self.send "#{k}=", val
       end
     end
 
-    def add_tracks(tracks)
-      tracks.each_with_index do |track, index|
-        @@tracks << Track.new(track)
+    def add_tracks(new_tracks)
+      tracks = []
+      new_tracks.each_with_index do |track, index|
+        tracks << Track.new(track)
       end
-    end
-
-    def tracks
-      @@tracks
+      @tracks = tracks
     end
 
     def wrap_to_json
       my_tracks = []
-      @@tracks.each_with_index do |track, index|
+      @tracks.each_with_index do |track, index|
         t_hash = {}
-        t_hash[:name]        = @@tracks[index].name
-        t_hash[:artist_name] = @@tracks[index].artist_name
-        t_hash[:album_name]  = @@tracks[index].album_name
-        t_hash[:spotify_url] = @@tracks[index].spotify_url
-        t_hash[:id]          = @@tracks[index].id
+        t_hash[:name]        = @tracks[index].name
+        t_hash[:artist_name] = @tracks[index].artist_name
+        t_hash[:album_name]  = @tracks[index].album_name
+        t_hash[:spotify_url] = @tracks[index].spotify_url
+        t_hash[:id]          = @tracks[index].id
         my_tracks << t_hash
       end
 
@@ -41,8 +38,8 @@ module Models
                       id: @id, 
                       tracks: my_tracks
                     }
-      @json = JSON.pretty_generate(my_playlist)
+      JSON.pretty_generate(my_playlist)
     end
   end # Playlist
-end #Models
+end # Models
 
