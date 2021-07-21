@@ -1,9 +1,9 @@
 require 'spec_helper'
 
-require_relative "../../lib/models/track"
+require_relative '../../lib/models/track'
 
 describe Models::Track do
-  let(:json) { JSON.parse(File.read("spec/fixtures/track.json")) }
+  let(:json) { JSON.parse(File.read('spec/fixtures/track.json')) }
 
   # Track class attrs - :id, :name, :artist_name, :album_name, :spotify_url
   it 'should have the correct accessors' do
